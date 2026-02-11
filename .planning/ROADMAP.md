@@ -38,6 +38,11 @@ This roadmap delivers an interactive "Will you be my valentine?" website featuri
 4. Project folder structure follows React best practices (components/, pages/, assets/)
 5. Vite build completes successfully with `npm run build`
 
+**Plans:** 1 plan
+
+Plans:
+- [ ] `01-foundation-setup-01-PLAN.md` — Scaffold React + TypeScript + Vite with React Router, folder structure, and verification
+
 ---
 
 ### Phase 2: Interactive Mechanics
