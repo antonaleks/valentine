@@ -38,10 +38,10 @@ This roadmap delivers an interactive "Will you be my valentine?" website featuri
 4. Project folder structure follows React best practices (components/, pages/, assets/)
 5. Vite build completes successfully with `npm run build`
 
-**Plans:** 1 plan
+**Plans:** 1 plan (Complete)
 
 Plans:
-- [ ] `01-foundation-setup-01-PLAN.md` — Scaffold React + TypeScript + Vite with React Router, folder structure, and verification
+- [x] `01-foundation-setup-01-PLAN.md` — Scaffold React + TypeScript + Vite with React Router, folder structure, and verification
 
 ---
 
@@ -67,6 +67,12 @@ Plans:
 4. User sees at least 5 different humorous messages when chasing "No" button
 5. Button movement stays at 60fps on mid-range mobile devices
 6. "Yes" button is always clickable and navigates to success page reliably
+
+**Plans:** 2 plans
+
+Plans:
+- [ ] `02-interactive-mechanics-01-PLAN.md` — Create RunawayButton component with pointer evasion, viewport boundaries, message rotation, and GPU-accelerated CSS
+- [ ] `02-interactive-mechanics-02-PLAN.md` — Integrate RunawayButton into HomePage, add layout CSS, verify desktop/mobile flow and 60fps performance
 
 ---
 
@@ -127,8 +133,8 @@ Plans:
 
 | Phase | Goal | Requirements | Success Criteria | Status |
 |-------|------|--------------|------------------|--------|
-| 1 | Foundation Setup | 6 | 5 | ⏳ Pending |
-| 2 | Interactive Mechanics | 7 | 6 | ⏳ Pending |
+| 1 | Foundation Setup | 6 | 5 | ✅ Complete |
+| 2 | Interactive Mechanics | 7 | 6 | ⏳ In Progress |
 | 3 | Visual Design & Photos | 10 | 7 | ⏳ Pending |
 | 4 | Deployment & Performance | 6 | 6 | ⏳ Pending |
 
