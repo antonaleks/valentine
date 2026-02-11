@@ -43,9 +43,10 @@
 
 ## Constraints
 
-- **Tech stack:** HTML5, CSS3, Vanilla JavaScript (no build tools needed for GitHub Pages)
-- **Deployment:** GitHub Pages (только static files)
-- **Performance:** Быстрая загрузка на мобильных (лёгкие ассеты)
+- **Tech stack:** React 18+, TypeScript (optional), CSS3/Styled Components, Vite (build tool)
+- **Deployment:** GitHub Pages через GitHub Actions CI/CD
+- **Build:** Автоматическая сборка при push в main
+- **Performance:** Оптимизированный bundle для мобильных
 - **Design:** Fancy/minimalist aesthetic, розовые/красные/белые тона
 - **Interaction:** Touch-friendly (мобильный тач не hover)
 
@@ -53,7 +54,8 @@
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Vanilla JS без фреймворков | GitHub Pages + простота проекта | — Pending |
+| React + Vite | Удобство правок, hot reload, компонентная структура | — Pending |
+| GitHub Actions CI/CD | Автоматический деплой при изменениях | — Pending |
 | Отдельная папка для фото | Пользователь добавит фото сам позже | — Pending |
 | Single-page flow | Простота и фокус на главной интеракции | — Pending |
 
