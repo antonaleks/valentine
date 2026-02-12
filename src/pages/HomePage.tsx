@@ -1,19 +1,26 @@
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router'
+import RunawayButton from '../components/RunawayButton'
+import FloatingHearts from '../components/FloatingHearts'
 
 export default function HomePage() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const handleYes = () => {
-    navigate('/success');
-  };
+    navigate('/success')
+  }
 
   return (
     <div className="home-page">
-      <h1>Будешь моей валентинкой?</h1>
-      <div className="buttons">
-        <button onClick={handleYes}>Да</button>
-        <button>Нет</button>
+      <FloatingHearts />
+      <div className="content">
+        <h1 className="title">Будешь моей валентинкой?</h1>
+        <div className="buttons-container">
+          <button className="btn btn-yes" onClick={handleYes}>
+            Да ❤️
+          </button>
+          <RunawayButton />
+        </div>
       </div>
     </div>
-  );
+  )
 }
