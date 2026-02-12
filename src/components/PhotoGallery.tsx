@@ -5,13 +5,19 @@ const BASE_URL = import.meta.env.BASE_URL || '/'
 const PHOTOS = [
   'FullSizeRender.JPG',
   'IMG_2745.JPG',
+  'IMG_2994.JPG',
   'IMG_3063.JPG',
+  'IMG_3284.JPG',
+  'IMG_3436.JPG',
   'IMG_3461.JPG',
   'IMG_3480.JPG',
   'IMG_3834.JPG',
   'IMG_4090.JPG',
   'IMG_4950.JPG',
   'IMG_5232.JPG',
+  'IMG_5781.JPG',
+  'IMG_6262.JPG',
+  'IMG_7271.JPG',
   'IMG_7855.JPG',
 ]
 
