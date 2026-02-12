@@ -13,7 +13,13 @@ export default function HomePage() {
     <div className="home-page">
       <FloatingHearts />
       <div className="content">
-        <h1 className="title">Будешь моей валентинкой?</h1>
+        <div className="title-container">
+          <span className="subtitle-greeting">Лерочка,</span>
+          <h1 className="title">
+            моя любимая принцесса
+          </h1>
+          <span className="subtitle-question">ты будешь моей валентинкой?</span>
+        </div>
         <div className="buttons-container">
           <button className="btn btn-yes" onClick={handleYes}>
             Да ❤️
