@@ -12,7 +12,7 @@ export default function SuccessPage() {
         <div className="heart-animation">❤️</div>
         
         <div className="gallery-section">
-          <h2 className="gallery-title">Наши моменты вместе</h2>
+          <h2 className="gallery-title">Наши моменты вместе в 2025</h2>
           <PhotoGallery />
         </div>
         

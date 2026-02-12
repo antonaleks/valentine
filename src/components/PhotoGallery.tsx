@@ -2,11 +2,20 @@ import { useState, useEffect } from 'react'
 
 const PHOTOS = [
   'FullSizeRender.JPG',
+  'IMG_2564.HEIC',
   'IMG_2745.JPG',
+  'IMG_2931.HEIC',
+  'IMG_2994.HEIC',
+  'IMG_3284.HEIC',
+  'IMG_3436.HEIC',
   'IMG_3461.JPG',
   'IMG_3480.JPG',
+  'IMG_4572.HEIC',
+  'IMG_4635.HEIC',
   'IMG_4950.JPG',
   'IMG_5232.JPG',
+  'IMG_6262.HEIC',
+  'IMG_7271.HEIC',
 ]
 
 export default function PhotoGallery() {
