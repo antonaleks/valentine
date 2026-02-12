@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react'
 
 const PHOTOS = [
-  'FullSizeRender.JPG',
-  'IMG_2564.JPG',
-  'IMG_2745.JPG',
-  'IMG_2931.JPG',
+  'FullSizeRender 2.JPG',
+  'IMG_2745 2.JPG',
   'IMG_2994.JPG',
   'IMG_3284.JPG',
   'IMG_3436.JPG',
-  'IMG_3461.JPG',
-  'IMG_3480.JPG',
+  'IMG_3461 2.JPG',
+  'IMG_3480 2.JPG',
+  'IMG_3834 2.JPG',
+  'IMG_4090 2.JPG',
   'IMG_4572.JPG',
   'IMG_4635.JPG',
-  'IMG_4950.JPG',
-  'IMG_5232.JPG',
+  'IMG_4950 2.JPG',
+  'IMG_5232 2.JPG',
   'IMG_6262.JPG',
   'IMG_7271.JPG',
 ]
