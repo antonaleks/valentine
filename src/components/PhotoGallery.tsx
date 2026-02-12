@@ -10,8 +10,6 @@ const PHOTOS = [
   'IMG_3480 2.JPG',
   'IMG_3834 2.JPG',
   'IMG_4090 2.JPG',
-  'IMG_4572.JPG',
-  'IMG_4635.JPG',
   'IMG_4950 2.JPG',
   'IMG_5232 2.JPG',
   'IMG_6262.JPG',
