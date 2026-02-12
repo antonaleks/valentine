@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+const BASE_URL = import.meta.env.BASE_URL || '/'
+
 const PHOTOS = [
   'FullSizeRender 2.JPG',
   'IMG_2745 2.JPG',
@@ -41,7 +43,7 @@ export default function PhotoGallery() {
         
         <div className="gallery-image-wrapper">
           <img
-            src={`/photos/${PHOTOS[currentIndex]}`}
+            src={`${BASE_URL}photos/${PHOTOS[currentIndex]}`}
             alt={`Наше фото ${currentIndex + 1}`}
             className="gallery-image"
             loading="lazy"
