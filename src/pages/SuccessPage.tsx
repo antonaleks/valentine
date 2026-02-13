@@ -13,9 +13,9 @@ export default function SuccessPage() {
         
         <div className="gift-message">
           <p className="gift-text">Твой подарок ждет тебя на почте</p>
-          <a href="mailto:valerieploshkina@gmail.com" className="gift-email">
+          <span className="gift-email">
             valerieploshkina@gmail.com
-          </a>
+          </span>
           <p className="gift-subtitle">Пока я лечу к тебе, давай вспомним, где мы были вместе в 2025!</p>
         </div>
         

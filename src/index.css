@@ -537,11 +537,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.gift-email:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 20px rgba(214, 51, 132, 0.3);
-  border-color: rgba(214, 51, 132, 0.5);
-}
+
 
 .gift-subtitle {
   font-size: 1.1rem;
