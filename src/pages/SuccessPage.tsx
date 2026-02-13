@@ -16,11 +16,11 @@ export default function SuccessPage() {
           <span className="gift-email">
             valerieploshkina@gmail.com
           </span>
-          <p className="gift-subtitle">Пока я лечу к тебе, давай вспомним, где мы были вместе в 2025!</p>
+          <p className="gift-subtitle">Пока я лечу к тебе, давай вспомним, где мы были вместе за последний год!</p>
         </div>
         
         <div className="gallery-section">
-          <h2 className="gallery-title">Наши моменты вместе в 2025</h2>
+          <h2 className="gallery-title">✨ Нажми на фото, чтобы узнать историю ✨</h2>
           <PhotoGallery />
         </div>
         
