@@ -20,7 +20,7 @@ export default function SuccessPage() {
         </div>
         
         <div className="gallery-section">
-          <h2 className="gallery-title">✨ Нажми на фото, чтобы узнать историю ✨</h2>
+          <h2 className="gallery-title">Наши моменты вместе</h2>
           <PhotoGallery />
         </div>
         
