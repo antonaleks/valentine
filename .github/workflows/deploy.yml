@@ -38,8 +38,10 @@ jobs:
       - name: Build
         run: npm run build
       
-      - name: Copy photos to dist
-        run: cp -r public/photos dist/
+      - name: Verify photos in dist
+        run: |
+          ls -la dist/photos/ | head -20
+          test -d dist/photos && echo "Photos directory exists" || echo "WARNING: Photos directory missing"
       
       - name: Configure Pages
         uses: actions/configure-pages@v4
