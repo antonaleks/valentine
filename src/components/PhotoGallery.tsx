@@ -45,17 +45,14 @@ export default function PhotoGallery() {
 
   return (
     <div className="photo-gallery">
-      <div className="gallery-hint">✨ Нажми на фото, чтобы прочитать историю ✨</div>
-      
       <div className="gallery-container">
         <button className="gallery-nav gallery-prev" onClick={prevPhoto}>‹</button>
         
         <div className="gallery-image-wrapper" onClick={toggleDescription}>
           {showDescription ? (
             <div className="photo-description-card">
-              <h3>История фото</h3>
               <p>{currentPhoto.desc}</p>
-              <span className="click-hint">Нажми, чтобы вернуть фото</span>
+              <span className="click-hint">Нажми для фото</span>
             </div>
           ) : (
             <>
@@ -64,7 +61,7 @@ export default function PhotoGallery() {
                 alt={`Фото ${currentIndex + 1}`}
                 className="gallery-image"
               />
-              <div className="click-hint-overlay">Нажми, чтобы узнать историю</div>
+              <div className="click-hint-overlay">Нажми для истории</div>
             </>
           )}
           <div className="gallery-counter">{currentIndex + 1} / {PHOTOS.length}</div>
