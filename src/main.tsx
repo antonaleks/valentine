@@ -1,16 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router'
+import { BrowserRouter, HashRouter } from 'react-router'
 import App from './App'
 import './index.css'
 
-// Динамический basename: /valentine для production (GitHub Pages), / для dev
-const basename = import.meta.env.PROD ? '/valentine' : '/'
+const Router = import.meta.env.PROD ? BrowserRouter : HashRouter
+const basename = import.meta.env.PROD ? '/valentine' : undefined
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename={basename}>
+    <Router basename={basename}>
       <App />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
 )
