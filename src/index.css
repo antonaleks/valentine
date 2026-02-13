@@ -504,3 +504,69 @@ body {
     margin: 2rem 0;
   }
 }
+
+/* Gift message styles */
+.gift-message {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 240, 245, 0.9) 100%);
+  border-radius: 24px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 2px solid rgba(214, 51, 132, 0.2);
+  box-shadow: 0 8px 32px rgba(214, 51, 132, 0.15);
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.gift-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  color: #8b5a7c;
+  margin-bottom: 0.5rem;
+}
+
+.gift-email {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #d63384;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 240, 245, 0.9) 100%);
+  border-radius: 50px;
+  border: 2px solid rgba(214, 51, 132, 0.3);
+  margin: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.gift-email:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(214, 51, 132, 0.3);
+  border-color: rgba(214, 51, 132, 0.5);
+}
+
+.gift-subtitle {
+  font-size: 1.1rem;
+  color: #6b4c5a;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* Mobile adjustments for gift message */
+@media (max-width: 600px) {
+  .gift-message {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  .gift-text {
+    font-size: 1.1rem;
+  }
+  
+  .gift-email {
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+  }
+  
+  .gift-subtitle {
+    font-size: 1rem;
+  }
+}

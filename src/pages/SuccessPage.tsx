@@ -11,6 +11,14 @@ export default function SuccessPage() {
         <p className="subtitle">Ты согласилась быть моей валентинкой!</p>
         <div className="heart-animation">❤️</div>
         
+        <div className="gift-message">
+          <p className="gift-text">Твой подарок ждет тебя на почте</p>
+          <a href="mailto:valerieploshkina@gmail.com" className="gift-email">
+            valerieploshkina@gmail.com
+          </a>
+          <p className="gift-subtitle">Пока я лечу к тебе, давай вспомним, где мы были вместе в 2025!</p>
+        </div>
+        
         <div className="gallery-section">
           <h2 className="gallery-title">Наши моменты вместе в 2025</h2>
           <PhotoGallery />
